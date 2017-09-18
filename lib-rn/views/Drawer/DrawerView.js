@@ -69,7 +69,7 @@ export default class DrawerView extends PureComponent {
     const DrawerScreen = this.props.router.getComponentForRouteName('DrawerClose');
     return <DrawerLayout ref={c => {
       this._drawer = c;
-    }} drawerWidth={this.props.drawerWidth} onDrawerOpen={this._handleDrawerOpen} onDrawerClose={this._handleDrawerClose} renderNavigationView={this._renderNavigationView} drawerPosition={this.props.drawerPosition === 'right' ? DrawerLayout.positions.Right : DrawerLayout.positions.Left}>
+    }} drawerWidth={this.props.drawerWidth} onDrawerOpen={this._handleDrawerOpen} onDrawerClose={this._handleDrawerClose} useNativeAnimations={this.props.useNativeAnimations} renderNavigationView={this._renderNavigationView} drawerPosition={this.props.drawerPosition === 'right' ? DrawerLayout.positions.Right : DrawerLayout.positions.Left}>
         <DrawerScreen screenProps={this.props.screenProps} navigation={this._screenNavigationProp} />
       </DrawerLayout>;
   }

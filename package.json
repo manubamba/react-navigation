@@ -1,6 +1,6 @@
 {
-  "name": "react-navigation",
-  "version": "1.0.0-beta.12",
+  "name": "react-navigation-latest",
+  "version": "1.0.0-beta.14",
   "description": "React Navigation",
   "main": "src/react-navigation.js",
   "sources": {
@@ -10,10 +10,10 @@
   "module": "lib/react-navigation.web.js",
   "webpack": "lib/react-navigation.web.js",
   "repository": {
-    "url": "git@github.com:react-community/react-navigation.git",
+    "url": "git@github.com:manubamba/react-navigation.git",
     "type": "git"
   },
-  "author": "Adam Miskiewicz <adam@sk3vy.com>",
+  "author": "Manu Bamba <manu.bamba@gmail.com>",
   "license": "BSD-2-Clause",
   "scripts": {
     "clean": "rm -rf lib/ lib-rn/",
